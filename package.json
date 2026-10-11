@@ -1,0 +1,14 @@
+{
+  "name": "postmark-mcp",
+  "version": "1.0.16",
+  "description": "MCP server that sends email through Postmark",
+  "type": "module",
+  "main": "index.js",
+  "bin": { "postmark-mcp": "index.js" },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "zod": "^3.25.0"
+  }
+}
